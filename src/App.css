@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --color-charcoalVoid: #222222;
   --color-solarFlare: #FAFF00;
+  --font-enconde-sans: "Encode Sans", sans-serif;
+}
+
+.Home{
+  background-image: url('../public/fitnessMan.png');
 }
 
 body {
