@@ -1,5 +1,6 @@
 import Advantages from "./Advantages";
 import Home from "./Home";
+import MemberShip from "./MemberShip";
 
 export default function Landing() {
 
@@ -7,6 +8,7 @@ export default function Landing() {
         <main className="flex flex-col scroll-smooth snap-y snap-mandatory overflow-y-auto overflow-x-hidden bg-black text-white">
             <Home />
             <Advantages />
+            <MemberShip />
         </main>
     )
 }

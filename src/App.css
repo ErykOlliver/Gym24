@@ -7,8 +7,16 @@
   --font-enconde-sans: "Encode Sans", sans-serif;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .Home{
   background-image: url('../public/fitnessMan.png');
+}
+
+.membership{
+  scrollbar-width: none;
 }
 
 body {
