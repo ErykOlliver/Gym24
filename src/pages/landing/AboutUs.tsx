@@ -3,7 +3,7 @@ export default function AboutUs() {
 
 
     return (
-        <section className="h-2/4 w-screen snap-start items-center font-enconde-sans gap-11 px-5 pt-15 flex flex-col">
+        <section className="h-2/4 w-screen snap-start items-center font-enconde-sans gap-11 px-5 py-15 flex flex-col">
             <h1 className="font-enconde-sans text-3xl font-semibold">About us</h1>
             <p className="text-center text-sm flex flex-col gap-5">
                 <span>
@@ -16,11 +16,11 @@ export default function AboutUs() {
                     to each individual's needs and goals.
                 </span>
             </p>
-            <div className="no-scroll flex overflow-x-auto gap-4.5 px-5 py-2.5 items-center">
-                <img src="/public/photo gym.png" alt="" />
-                <img src="/public/photo gym2.png" alt="" />
-                <img src="/public/photo gym3.png" alt="" />
-                <img src="/public/photo gym4.png" alt="" />
+            <div className="no-scroll flex overflow-x-auto gap-4.5 px-5 py-2.5 items-center snap-x snap-mandatory">
+                <img src="/public/photo gym.png" alt="" className="snap-center" />
+                <img src="/public/photo gym2.png" alt="" className="snap-center" />
+                <img src="/public/photo gym3.png" alt="" className="snap-center" />
+                <img src="/public/photo gym4.png" alt="" className="snap-center" />
             </div>
         </section>
     )
