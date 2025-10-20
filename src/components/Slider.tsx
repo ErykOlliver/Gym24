@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 type props = {
     imgs: string[]
@@ -16,9 +16,9 @@ export default function Slider(props: props) {
                 <img src={props.imgs[imgsCount]} alt="" className="md:w-md md:h-70 sm:w-xl sm:h-96 snap-center w-full h-full" />
             </div>
             <div className=" w-full h-full flex justify-between items-center">
-                <div className="flex w-full gap-1 h-full items-center justify-start">
+                <div className="flex w-1/2 gap-1 h-full items-center justify-start">
                     {props.imgs.map((_, index) => (
-                        <div key={index} className={`w-1/7 rounded-full h-1.5 ${index == imgsCount ? 'bg-solarFlare' : 'bg-charcoalVoid'} `}></div>
+                        <div key={index} className={`w-1/7 rounded-full h-1 ${index == imgsCount ? 'bg-solarFlare' : 'bg-gray-400'} `}></div>
                     ))}
                 </div>
                 <div className="flex gap-1.5">
