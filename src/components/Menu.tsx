@@ -14,10 +14,10 @@ export default function Menu() {
                 <div className="flex justify-between mx-5 w-full">
                     <img src="/favicon.svg" alt="GYM24 Icon" />
                     <ul className="flex gap-4.5 border-white">
-                        <li><a href="#">Advantages</a></li>
-                        <li><a href="#">Membership</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Trainers</a></li>
+                        <li><a className="text-xs" href="#">Advantages</a></li>
+                        <li><a className="text-xs" href="#">Membership</a></li>
+                        <li><a className="text-xs" href="#">About</a></li>
+                        <li><a className="text-xs" href="#">Trainers</a></li>
                     </ul>
                 </div>
             </nav>
