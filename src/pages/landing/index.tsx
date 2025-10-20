@@ -1,6 +1,8 @@
+import AboutUs from "./AboutUs";
 import Advantages from "./Advantages";
 import Home from "./Home";
 import MemberShip from "./MemberShip";
+import Treiners from "./Treiners";
 
 export default function Landing() {
 
@@ -9,6 +11,8 @@ export default function Landing() {
             <Home />
             <Advantages />
             <MemberShip />
+            <AboutUs />
+            <Treiners />
         </main>
     )
 }
