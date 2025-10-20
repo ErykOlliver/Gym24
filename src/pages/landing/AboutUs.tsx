@@ -1,4 +1,3 @@
-import Pass from "../../components/Pass";
 
 export default function AboutUs() {
 
