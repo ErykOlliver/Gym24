@@ -6,7 +6,7 @@ export default function MemberShip() {
     return (
         <section className="font-enconde-sans h-2/4 w-screen snap-start items-center gap-11 px-5 py-15 flex flex-col">
             <h1 className="sm:text-5xl text-3xl font-semibold">Gym membership</h1>
-            <div className="sm:grid-cols-2 sm:grid-flow-row sm:overflow-hidden no-scroll grid grid-flow-col overflow-x-auto overflow-y-hidden items-center auto-cols-[275px] auto-rows-[397px] scroll-smooth px-5 py-2.5 w-full gap-4.5 snap-x snap-mandatory">
+            <div className="md:grid-cols-3 sm:grid-cols-2 sm:grid-flow-row sm:overflow-hidden no-scroll grid grid-flow-col overflow-x-auto overflow-y-hidden items-center auto-cols-[275px] auto-rows-[397px] scroll-smooth px-5 py-2.5 w-full gap-4.5 snap-x snap-mandatory">
                 <Pass
                     title="Pass ‘Trial’ "
                     price="$ 0"
