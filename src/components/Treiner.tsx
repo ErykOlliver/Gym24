@@ -10,7 +10,7 @@ type props = {
 
 export default function Treiner(props: props) {
     return (
-        <article className="w-full snap-center rounded-xl gap-2.5 py-5 h-full flex flex-col items-center justify-between bg-charcoalVoid font-enconde-sans">
+        <article className="w-full snap-center rounded-lg gap-2.5 p-5 h-full flex flex-col items-center justify-between bg-charcoalVoid font-enconde-sans">
             <img src={props.photo} alt={props.name} />
             <h2 className="text-lg font-semibold">{props.name}</h2>
             <div className="flex gap-2">

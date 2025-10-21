@@ -2,7 +2,7 @@ import { Facebook, Instagram, Mail, Phone, Twitter, Youtube } from "lucide-react
 
 export default function Footer() {
     return (
-        <section className="md:grid-cols-3 sm:grid-cols-2 h-2/4 w-screen snap-start items-center font-enconde-sans gap-11 px-5 py-15 grid grid-cols-1">
+        <section className="md:grid-cols-3 sm:grid-cols-2 h-2/4 w-full items-center justify-center font-enconde-sans gap-11 px-5 py-15 grid grid-cols-1">
             <article className="md:flex sm:text-start sm:items-start text-center px-15 hidden flex-col items-center gap-5 h-full">
                 <img src="/favicon.svg" alt="GYM24 Icon" />
                 <p className=" text-sm flex flex-col gap-5">

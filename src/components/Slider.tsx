@@ -11,9 +11,9 @@ export default function Slider(props: props) {
     const [imgsCount, setImgCounts] = useState(0);
 
     return (
-        <div className="md:flex flex-col hidden w-1/2 gap-1.5 items-center h-fit ">
+        <div className=" md:flex flex-col hidden w-fit gap-1.5 items-center h-fit ">
             <div className="md:inline hidden w-full items-center">
-                <img src={props.imgs[imgsCount]} alt="" className="md:w-md md:h-70 sm:w-xl sm:h-96 snap-center w-full h-full" />
+                <img src={props.imgs[imgsCount]} alt="" className="lg:w-xl lg:h-96 md:w-md md:h-70 sm:w-xl sm:h-96 snap-center w-full h-full" />
             </div>
             <div className=" w-full h-full flex justify-between items-center">
                 <div className="flex w-1/2 gap-1 h-full items-center justify-start">
@@ -22,8 +22,8 @@ export default function Slider(props: props) {
                     ))}
                 </div>
                 <div className="flex gap-1.5">
-                    <ArrowLeft onClick={() => imgsCount <= 0 ? setImgCounts(props.imgs.length - 1) : setImgCounts(imgsCount - 1)} />
-                    <ArrowRight onClick={() => imgsCount >= props.imgs.length - 1 ? setImgCounts(0) : setImgCounts(imgsCount + 1)} />
+                    <ArrowLeft className="hover:cursor-pointer" onClick={() => imgsCount <= 0 ? setImgCounts(props.imgs.length - 1) : setImgCounts(imgsCount - 1)} />
+                    <ArrowRight className="hover:cursor-pointer" onClick={() => imgsCount >= props.imgs.length - 1 ? setImgCounts(0) : setImgCounts(imgsCount + 1)} />
                 </div>
             </div>
         </div>

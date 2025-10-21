@@ -4,10 +4,10 @@ export default function AboutUs() {
 
 
     return (
-        <section className="md:flex-row h-2/4 w-screen snap-start items-end font-enconde-sans gap-11 px-5 pt-15 flex flex-col">
+        <section className="lg:px-25 md:flex-row h-2/4 w-screen snap-start items-center justify-center font-enconde-sans gap-11 px-5 pt-15 flex flex-col">
             <div className="md:items-start md:w-1/2 items-center gap-4.5 flex flex-col">
                 <h1 className=" sm:text-5xl text-3xl font-semibold">About us</h1>
-                <p className="md:text-start text-center text-sm flex flex-col gap-5">
+                <p className="md:text-start w-1/2 text-center text-sm flex flex-col gap-5">
                     <span>
                         Gym24 is a leading fitness center located near Grushevka metro station, offering over 1500 sq.
                         m of space dedicated to top-of-the-line workout equipment from leading brands such as Hammer Strength,
