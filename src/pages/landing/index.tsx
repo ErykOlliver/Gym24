@@ -8,7 +8,7 @@ import Treiners from "./Treiners";
 export default function Landing() {
 
     return (
-        <main className="flex flex-col scroll-smooth snap-y snap-mandatory overflow-y-auto overflow-x-hidden bg-black text-white">
+        <main className="flex flex-col gap-25 scroll-smooth snap-y snap-mandatory overflow-y-auto overflow-x-hidden bg-black text-white">
             <Home />
             <Advantages />
             <MemberShip />

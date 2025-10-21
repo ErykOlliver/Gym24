@@ -14,7 +14,7 @@ export default function Pass(props: props) {
                 <h2 className="text-lg">{props.title}</h2>
                 <p className="text-2xl">{props.price}</p>
             </header>
-            <div className="flex flex-col transition-colors group-hover:bg-charcoalVoid items-center rounded-b-xl h-full justify-between gap-10 p-5">
+            <div className="flex flex-col transition-colors w-full group-hover:bg-charcoalVoid items-center rounded-b-xl h-full justify-between gap-10 p-5">
                 <ul className="gap-3 flex flex-col">
                     {props.info.map(advantage => (
                         <li className="flex gap-1.5 items-center ">
